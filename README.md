@@ -24,7 +24,7 @@ Her bir kategori için detaylı analiz ve temizleme seçenekleri.
 
 ## 💻 Kurulum
 
-1. En son sürümü [buradan](https://github.com/yourusername/clean-my-mac/releases) indirin
+1. En son sürümü [buradan](https://github.com/apo-bozdag/clean-my-mac/releases) indirin
 2. DMG dosyasını açın
 3. Clean My Mac uygulamasını Applications klasörüne sürükleyin
 4. Uygulamayı başlatın
@@ -42,6 +42,10 @@ Bu proje [Tauri](https://tauri.app) + [Svelte](https://svelte.dev) + [TypeScript
 ### Geliştirme Ortamını Hazırlama
 
 ```bash
+# Repository'yi klonlayın
+git clone https://github.com/apo-bozdag/clean-my-mac.git
+cd clean-my-mac
+
 # Bağımlılıkları yükleyin
 npm install
 
@@ -66,5 +70,5 @@ MIT License. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
 ## 🔒 Güvenlik
 
-Güvenlik açığı bulduysanız, lütfen doğrudan maintainer'lara ulaşın.
+Güvenlik açığı bulduysanız, lütfen issue açın veya doğrudan maintainer'lara ulaşın.
 
