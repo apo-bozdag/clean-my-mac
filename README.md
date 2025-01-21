@@ -1,38 +1,70 @@
-# sv
+# Clean My Mac
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Modern ve güçlü bir Mac temizleme ve optimizasyon uygulaması. Sisteminizi temiz ve performanslı tutmak için tasarlandı.
 
-## Creating a project
+![Ana Ekran](ss1.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Özellikler
+
+### 🧹 Smart Care
+Sisteminizin genel durumunu tek bir yerden görüntüleyin ve yönetin.
+
+![Smart Care](ss2.png)
+
+- **System Cleanup**: Gereksiz dosyaları ve önbelleği temizleyin
+- **Protection**: Sisteminizi tehditlere karşı koruyun
+- **Performance**: Sistem performansını optimize edin
+- **Applications**: Uygulamalarınızı güncel tutun
+- **My Clutter**: Tekrarlanan ve gereksiz dosyaları bulun
+
+### 🔍 Detaylı Sistem Analizi
+Her bir kategori için detaylı analiz ve temizleme seçenekleri.
+
+![Detaylı Analiz](ss3.png)
+
+## 💻 Kurulum
+
+1. En son sürümü [buradan](https://github.com/yourusername/clean-my-mac/releases) indirin
+2. DMG dosyasını açın
+3. Clean My Mac uygulamasını Applications klasörüne sürükleyin
+4. Uygulamayı başlatın
+
+## 🛠️ Geliştirme
+
+Bu proje [Tauri](https://tauri.app) + [Svelte](https://svelte.dev) + [TypeScript](https://www.typescriptlang.org/) kullanılarak geliştirilmiştir.
+
+### Gereksinimler
+
+- Node.js (v16 veya üzeri)
+- Rust
+- macOS için geliştirme araçları
+
+### Geliştirme Ortamını Hazırlama
 
 ```bash
-# create a new project in the current directory
-npx sv create
+# Bağımlılıkları yükleyin
+npm install
 
-# create a new project in my-app
-npx sv create my-app
+# Geliştirme modunda çalıştırın
+npm run tauri dev
+
+# Uygulamayı derleyin
+npm run tauri build
 ```
 
-## Developing
+## 📝 Lisans
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+MIT License. Daha fazla bilgi için `LICENSE` dosyasına bakın.
 
-```bash
-npm run dev
+## 🤝 Katkıda Bulunma
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. Bu projeyi fork edin
+2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'feat: add amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
 
-## Building
+## 🔒 Güvenlik
 
-To create a production version of your app:
+Güvenlik açığı bulduysanız, lütfen doğrudan maintainer'lara ulaşın.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
