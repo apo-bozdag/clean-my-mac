@@ -1,0 +1,1 @@
+import{c as t}from"../../../chunks/ssr.js";const i=t((e,s,a,l)=>'<div class="p-8" data-svelte-h="svelte-1q6a3n2"><h1 class="text-3xl font-bold text-white mb-4">Applications</h1> <p class="text-white/60">Uygulamalarınızı yönetin ve güncelleyin.</p></div>');export{i as default};

@@ -1,0 +1,1 @@
+import{c as e}from"../../../chunks/ssr.js";const n=e((t,s,a,i)=>'<div class="p-8" data-svelte-h="svelte-1uy5ze5"><h1 class="text-3xl font-bold text-white mb-4">Cleanup</h1> <p class="text-white/60">Sisteminizi temizleyin ve gereksiz dosyalardan kurtulun.</p></div>');export{n as default};

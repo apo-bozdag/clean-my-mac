@@ -1,0 +1,1 @@
+import{c as e}from"../../../chunks/ssr.js";const r=e((t,s,n,a)=>'<div class="p-8" data-svelte-h="svelte-17085jo"><h1 class="text-3xl font-bold text-white mb-4">Performance</h1> <p class="text-white/60">Mac&#39;inizin performansını optimize edin ve hızlandırın.</p></div>');export{r as default};

@@ -1,0 +1,1 @@
+@keyframes svelte-1d595u9-aurora{0%{transform:translateY(0)}to{transform:translateY(100%)}}.animate-aurora.svelte-1d595u9{animation:svelte-1d595u9-aurora 8s linear infinite}@keyframes svelte-1d595u9-pulse{0%,to{opacity:.4}50%{opacity:.8}}.animate-pulse.svelte-1d595u9{animation:svelte-1d595u9-pulse 4s cubic-bezier(.4,0,.6,1) infinite}
